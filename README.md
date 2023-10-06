@@ -21,3 +21,9 @@ IP 51.250.1.232
 Frontend https://juliya-diplom.nomoredomainsicu.ru
 
 Backend https://api.juliya-diplom.nomoredomainsicu.ru
+
+## Ссылка на пул-реквест 
+https://github.com/JuliyaKorshunova/movies-explorer-diplom-production/pull/1
+
+## Ссылка на репозиторий
+https://github.com/JuliyaKorshunova/movies-explorer-diplom-production/

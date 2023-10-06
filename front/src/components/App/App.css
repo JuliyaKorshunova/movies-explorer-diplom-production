@@ -1,0 +1,30 @@
+.root {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #202020;
+  color: #fff;
+}
+
+.page {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 1280px;
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inactive-button {
+  pointer-events: none;
+}

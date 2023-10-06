@@ -1,0 +1,166 @@
+.techs {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #272727;
+  display: flex;
+  justify-content: center;
+}
+
+.techs__container {
+  width: 89%;
+  padding: 100px 0;
+}
+
+.techs__title {
+  margin: 0;
+  padding-bottom: 23px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  border-bottom: 1px solid rgba(218, 218, 218, 1);
+}
+
+.techs__info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techs__text {
+  width: 40%;
+  margin: 90px auto 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techs__subtitle {
+  margin: 0;
+  padding-bottom: 26px;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.techs__description {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.techs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+
+.techs__list-item {
+  margin: 0;
+  width: 90px;
+  min-height: 60px;
+  background-color: rgba(48, 48, 48, 1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1023px) {
+  .techs__container {
+    width: 87%;
+    padding: 90px 0;
+  }
+
+  .techs__text {
+    width: 69%;
+    margin: 80px auto 83px;
+  }
+
+  .techs__subtitle {
+    padding-bottom: 22px;
+  }
+
+  .techs__description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .techs__list {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .techs__list-item {
+    width: 84px;
+    min-height: 57px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .techs__container {
+    width: 89%;
+    padding: 70px 0;
+  }
+
+  .techs__title {
+    padding-bottom: 28px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .techs__info-box {
+    max-width: 668px;
+  }
+
+  .techs__text {
+    width: 91%;
+    margin: 60px auto 50px;
+  }
+
+  .techs__subtitle {
+    padding-bottom: 24px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .techs__description {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .techs__list {
+    width: 63%;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .techs__list-item {
+    width: 84px;
+    min-height: 57px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .techs__list {
+    justify-content: flex-start;
+  }
+}

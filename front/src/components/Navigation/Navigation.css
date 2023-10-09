@@ -1,0 +1,111 @@
+.navigation__page-overlay {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation__page-overlay {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    justify-content: space-between;
+  }
+
+  .navigation__menu {
+    box-sizing: border-box;
+    padding: 159px 90px 90px 90px;
+    width: 520px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /*gap: 610px;*/
+    background: #202020;
+    position: relative;
+  }
+
+  .navigation__overlay-container {
+    flex: 1 1 auto;
+  }
+
+  .navigation__close-button {
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    background-image: url('../../images/close-button.svg');
+    width: 22px;
+    height: 22px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .navigation__close-button:hover {
+    opacity: 0.6;
+  }
+
+  .navigation__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+  }
+
+  .navigation__link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+  }
+
+  
+  .navigation__link_active {
+    color: #2be080;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  .navigation__link:hover {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fff;
+  }
+
+  .navigation__account-button {
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation__account-button:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navigation__close-button {
+    top: 18px;
+    right: 18px;
+  }
+  .navigation__menu {
+    padding: 144px 10px 46px 10px;
+    width: 100%;
+  }
+
+  .navigation__overlay-container {
+    display: none;
+  }
+
+  .navigation__link {
+    margin-top: 23px;
+  }
+}
